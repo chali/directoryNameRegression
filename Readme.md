@@ -5,3 +5,5 @@ You can execute the test using
     ./gradlew clean build
     
 The tests `DirectoryCreationJDeb14Spec` and `DirectoryCreationJDep16Spec` are identical just using different dependencies but `DirectoryCreationJDep16Spec` fails.
+
+The test expects to read directory with this path `./var/log/customdirectory/` but it reads `.//var/log/customdirectory/`
