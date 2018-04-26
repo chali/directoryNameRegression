@@ -1,0 +1,10 @@
+dependencies {
+    testCompile project(':common')
+    testCompile('org.vafer:jdeb:1.4') {
+        exclude group: 'org.apache.maven', module: 'maven-core'
+        exclude group: 'org.apache.maven', module: 'maven-plugin-api'
+        exclude group: 'org.apache.maven', module: 'maven-project'
+        exclude group: 'org.apache.maven', module: 'maven-artifact'
+        exclude group: 'org.codehaus.plexus', module: 'plexus-utils'
+    }
+}

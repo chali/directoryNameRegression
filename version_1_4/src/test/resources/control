@@ -1,0 +1,7 @@
+Package: foo
+Version: 1.0
+Section: bar
+Priority: low
+Architecture: x86
+Maintainer: chali
+Description: none
